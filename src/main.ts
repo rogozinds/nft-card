@@ -2,7 +2,12 @@ import './style.css'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div class="card">
-      <img src="image-equilibrium.jpg" class="main_image" alt="NTF Logo" />
+      <div class="image_container">
+          <img src="image-equilibrium.jpg" class="main_image" alt="NTF Logo" />
+          <div class="overlay_image">
+              <img src="icon-view.svg" class="overlay_image" />
+          </div>
+      </div>
       <div class="header">
           <a href="#">Equilibrium #3429</a>
       </div>
