@@ -113,8 +113,10 @@ a:hover {
   gap: 0.5rem;
 }
 .contributor img {
-  width: 33px;
-  height: 33px;
+  width: 38px;
+  height: 38px;
+  border: white solid 1px;
+  border-radius: 100px;
 }
 .contributor div {
   color: #8BACD9;
