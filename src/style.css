@@ -1,5 +1,5 @@
 #app {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Outfit', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   line-height: 1.5;
   font-weight: 400;
   margin: 0 auto;
@@ -23,9 +23,14 @@ body {
   width: 302px;
   display: flex;
   flex-direction: column;
-  padding:20px;
+  padding:1.5rem;
   gap:1rem;
   border-radius: 10px;
+}
+.header {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
 }
 .image_container {
   position: relative;
@@ -33,6 +38,7 @@ body {
 .main_image {
   width: 302px;
   height: 302px;
+  border-radius: 8px;
 }
 .main_image:hover {
   filter: blur(5px) brightness(50%);
@@ -43,6 +49,7 @@ body {
 
 .overlay_image {
   position:absolute;
+  border-radius: 8px;
   left: 0;
   top:0;
   color: cyan;
@@ -84,6 +91,7 @@ a:hover {
 }
 .content .price {
   display: flex;
+  font-weight: 600;
   align-items: center;
   gap: 0.5rem;
   color: cyan;
